@@ -1,0 +1,54 @@
+
+    .o{
+        position: relative;
+    }    
+    .q{
+        position:absolute;
+        top: 100px;
+        left: 100px;
+        color: white;
+        font-size: 300%;
+    }
+    td{
+        border: 0px;
+    }
+    .abc{
+        border-color: #cdc332;
+        font-size: 100%;
+        font-style: oblique;
+        font-weight: 200;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        cursor: pointer;
+        background-color: #cdc332;
+    }
+    table{
+        margin-top: 2%;
+        border-color: aquamarine;
+        border-spacing: 20px;
+        background-color: antiquewhite;
+    }
+    #immg{
+        float:left;
+        padding: 7px;
+        margin-left: 2%;
+    }
+    img.s{
+        float:right;
+        margin-top: -700px;
+    }
+    .r{
+        margin-left: 150px;
+    }
+    .a{
+        padding: 5%;
+        margin: 5%;
+        margin-left: 50%;
+        padding-top: 20px;
+    }
+    .b{
+        padding: 5%;
+        margin: 10%;
+        margin-left: 4%;
+        margin-right: 50%;
+        padding-top: 30px;
+    }

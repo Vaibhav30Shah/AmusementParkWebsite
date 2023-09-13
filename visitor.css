@@ -1,0 +1,46 @@
+.o{
+    position: relative;
+}    
+.q{
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 300%;
+}
+.c{
+    padding: 5%;
+    margin: 0%;
+    margin-left: 60%;
+    padding-top: 36px;
+}
+.c img{
+    margin-left: -130%;
+}
+.d{
+    padding: 5%;
+    margin: 10%;
+    margin-left: 4%;
+    margin-right: 50%;
+    padding-top: 30px;
+}
+.d .f{
+    margin-top: -130%;
+    margin-left: -250%;
+}
+.e{
+    margin-top: -30%;
+    margin-left: -250%;
+}
+.e{
+    border-color: #cdc332;
+    font-size: 100%;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    background-color: #cdc332;
+}
+a{
+    text-decoration: none;
+}

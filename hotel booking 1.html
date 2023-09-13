@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="allCss.css">
+    <script src="allJs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+    body{
+        background-color: #dd8a3d;
+    }
+    button{
+        border-color: #cdc332;
+        font-size: 100%;
+        font-style: oblique;
+        font-weight: 200;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        cursor: pointer;
+        background-color: #cdc332;
+    }
+    table{
+        margin-top: -5%;
+        border-color: rgb(24, 59, 48);
+        border-spacing: 30px;
+        background-color: #9ec1f0;
+        margin-bottom: 2%;
+        
+    }
+    td{
+        border: 0px;
+    }
+    </style>
+       <header>
+        <nav>
+            <div><a href="home.html"><img src="images/logo.png" alt="Logo" class="logo" /></a></div>
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbtn">Discover <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="advact.html" style="color: Black;">Adventure Activities</a>
+                        <a href="restaurant.html" style="color: Black;">Restaurant</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Passes and Offers <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="passes.html" style="color: Black;">Passes</a>
+                        <a href="offers.html" style="color: Black;">Offers</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Groups <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="employee engagement.html" style="color: Black;">Corporate Outings</a>
+                        <a href="birthday.html" style="color: Black;">Celebrations</a>
+                    </div>
+                </div>
+                <a href="stay.html">Stay </a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your visit <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="visitor info.html" style="color: Black;">Visitor's Info</a>
+                        <a href="timings.html" style="color: Black;">Timings</a>
+                    </div>
+                </div>
+
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div class="login">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <marquee direction="left" behavior="alternate" scrollamount="15" >
+        <img src="images/stay-pic-1_03.jpg">
+        <img src="images/stay-pic-2_03.jpg">
+        <img src="images/stay-pic-3_03.jpg">
+        <img src="images/stay-pic-6_03.jpg">
+    </marquee>
+    <table width="500px" border="5" align="center">
+        <form>
+            <tr>
+                <td>
+                    <h1 align="center">Hotel Booking</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Name<br>
+                    <input type="text" name="name" placeholder="Name"/>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Contact No.<br>
+                    <input type="number" name="Contact no." placeholder="Enter Your Contact No."/>
+                </td>
+            </tr><br>
+            <tr>
+                <td>How Many People are staying?<br>
+                    <input type="number" name="people are staying?" placeholder="Enter No. People are staying?"/>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Which Suite You Want to Book?<br>
+                    <select name="suites">Suite You Want
+                        <option value="Suite You Want">Suite You Want</option>
+                        <option value="DELLA PRESIDENTIAL SUITE">DELLA PRESIDENTIAL SUITE</option>
+                    </select>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Price<br>
+                    <select name="price">
+                        <option value="Select Price">Select Price</option>
+                        <option value="10000 / Per Room">10000 / Per Room</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>How Many Rooms you Want to Book?<br>
+                    <input type="number" name="Book rooms" placeholder="Enter No. Room are booking"/>
+                </td>
+            </tr><br>
+            <tr>
+                <td>Check In:<br>
+                    <input type="date" name="check in">
+                </td>
+            </tr><br>
+            <tr>
+                <td>Check Out:<br>
+                    <input type="date" name="check out">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>SUBMIT</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+    <marquee direction="right" behavior="alternate" scrollamount="15" >
+        <img src="images/stay-pic-1_03.jpg">
+        <img src="images/stay-pic-2_03.jpg">
+        <img src="images/stay-pic-3_03.jpg">
+        <img src="images/stay-pic-6_03.jpg">
+    </marquee>
+</body>
+</html>

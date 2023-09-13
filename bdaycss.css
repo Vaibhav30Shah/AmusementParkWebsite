@@ -1,0 +1,39 @@
+.o{
+    padding: 5%;
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 50%;
+    padding-top: 30px;
+    width: 65%;
+}
+img.s{
+    float:right;
+    margin-top: -750px;
+    margin-right: 3%;
+    height: 500px;
+}
+table{
+    margin-top: 2%;
+    border-color: aquamarine;
+    border-spacing: 20px;
+    background-color: antiquewhite;
+}
+td{
+    border: 0px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+h1{
+    align-items: right;
+}
+.abc{
+    border-color: #cdc332;
+    font-size: 100%;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    background-color: #cdc332;
+}

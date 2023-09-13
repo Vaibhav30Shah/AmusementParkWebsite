@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="allCss.css">
+    <script src="allJs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;600&family=Proza+Libre&display=swap');
+        *{
+            font-family: 'Proza Libre', sans-serif;
+        }
+    </style>
+</head>
+
+<body bgcolor="orange">
+    <header>
+        <nav>
+            <div><a href="home.html"><img src="images/logo.png" alt="Logo" class="logo" /></a></div>
+            <div class="menu">
+                <div class="dropdown">
+                    <button class="dropbtn">Discover <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="advact.html" style="color: Black;">Adventure Activities</a>
+                        <a href="restaurant.html" style="color: Black;">Restaurant</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Passes and Offers <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="passes.html" style="color: Black;">Passes</a>
+                        <a href="offers.html" style="color: Black;">Offers</a>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <button class="dropbtn">Groups <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="employee engagement.html" style="color: Black;">Corporate Outings</a>
+                        <a href="birthday.html" style="color: Black;">Celebrations</a>
+                    </div>
+                </div>
+                <a href="stay.html">Stay </a>
+    
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your visit <i class="arrowdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="visitor info.html" style="color: Black;">Visitor's Info</a>
+                        <a href="timings.html" style="color: Black;">Timings</a>
+                    </div>
+                </div>
+    
+                <a href="about.html">About Us</a>
+            </div>
+    
+            <div class="login">
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    
+        <center><table align="center" class="logintbl" cellspacing="15px">
+            <form action="logindata.php">
+                <tr>
+                    <th colspan="2">
+                        <h3>Login</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><input type="submit" value="Login" class="btn" size="50%">
+                    <input type="reset" class="btn" value="Clear"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="font-size: 15px;">Don't have an account? <a href="signup.html">Register now</a></td>
+                </tr>
+            </form>
+        </table>
+    </center>
+
+    <footer>
+    <div style="padding: 98px;"></div>
+    <div class="footer-bottom" style="height: 20px;">
+        <p>Copyright &copy; 2022 <a href="home.html">Midtown Amusement Park</a></p>
+
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

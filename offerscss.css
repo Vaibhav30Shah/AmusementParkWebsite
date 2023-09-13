@@ -1,0 +1,38 @@
+td{
+    padding: 100px;    
+}
+img{
+    align-items: center;
+    padding: 10px;
+}
+.abc{
+    border-color: #cdc332;
+    font-size: 100%;
+    font-weight: 200;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #cdc332;
+}
+.o{
+    position: relative;
+}    
+.q{
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 300%;
+}
+a{
+    text-decoration: none;
+}
+.ad{
+    padding: 15px;
+}
+.as{
+    padding: 15px;
+}
+hr{
+    margin-left: 13px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="allCss.css">
+    <link rel="stylesheet" href="bdaycss.css">
+    <script src="allJs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+        <div>
+            <img src="./images/homeImg.png" alt="Adventure" class="homeimage"/>
+        </div>
+        <center>
+        <table width="1000px" border="5" align="center" >
+            <tr>
+                <td><h1 style="text-align: center;">MIDTOWN ADVENTURE BOOKING</h1></td>
+            </tr>
+            <TR>
+                <TD>Choose the number of adventure seekers and start customizing your package.</TD>
+            </TR>
+            <form>
+                <tr>
+                    <td>How many People are Coming?<br>
+                        <input type="number" name="name" placeholder="Enter the no. of people"/>
+                    </td>
+                    <td>When do you Plan to Come?<br>
+                        <input type="date" name="date" placeholder="Enter The Date"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Name<br>
+                        <input type="Name" name="name" placeholder="Enter Your Names"/>
+                    </td>
+                    <td>Email<br>
+                        <input type="email" name="name" placeholder="Enter Your Email"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone No.<br>
+                        <input type="number" name="Phone" placeholder="Phone"/>
+                    </td>                
+                    <td>City<br>
+                        <input type="text" name="city" placeholder="Your City"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Book for<br>
+                        <input type="number" name="ad" id="ad" placeholder="Adults">
+                        <input type="number" name="ch" id="ch" placeholder="Childs">
+                        <input type="number" name="seci" id="seci" placeholder="Sr. Citizen">        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Promo Code</td>
+                </tr>
+                <tr>
+                    <td>
+                    <select name="promo" id="promo">
+                        <option value="sel">Enter promo code</option>
+                        <option value="JUMBO30">JUMBO30</option>
+                        <option value="DAY25">DAY25</option>
+                        <option value="BIRTHDAY">BIRTHDAY</option>
+                        <option value="LADIESSUNDAY">LADIESSUNDAY</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>SUBMIT</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+</html>
